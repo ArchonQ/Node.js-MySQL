@@ -4,7 +4,7 @@ var inquirer = require("inquirer");
 
 // create the connection information for the sql database
 var connection = mysql.createConnection({
-  host: "localhost",
+  host: "127.0.0.1",
 
   // Your port; if not 3306
   port: 3306,
@@ -13,7 +13,7 @@ var connection = mysql.createConnection({
   user: "root",
 
   // Your password
-  password: "password",
+  password: "",
   database: "bamazon_db"
 });
 
